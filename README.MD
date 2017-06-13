@@ -39,6 +39,13 @@ Extend CiviCRM search builder to support location based searches.
 		- Added function PostalCodeRange() to create new query when range operator choosen.
 
 
+### CRM-15049 : Include/exclude search not working for parent groups
+
+* Overriden below file in my extenstion to resolve this bug
+	- /CRM/Contact/Form/Search/Custom/Group.php
+		- Added code in form() function to find child contact ids
+
+
 
 
 
